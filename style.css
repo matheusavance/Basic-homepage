@@ -1,0 +1,126 @@
+* {
+	font-family: Arial;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.cabecalho {
+	background-color: #353535;
+	height: 50px;
+}
+
+.topointerior {
+	width: 1000px;
+	margin:auto;
+}
+
+.logomarca {
+	float: left;
+	color: white;
+	font-size: 24px; 
+	line-height: 50px;
+	font-family: Arial;
+}
+
+.menu {
+	float: right;
+	color: white;
+	font-family: Arial;	
+}
+
+.menu ul {
+	margin: 0;
+	padding: 0;
+	line-height: 50px;
+	list-style: none;
+	font-size: 14px;
+}
+
+.menu li {
+	float: left;
+	padding-right: 10px;
+	padding-left:  10px;
+}
+
+.menu li:hover {
+	background-color: #3480c1;
+	cursor: pointer;
+}
+
+.banner {
+	background-color: #347aba;
+	height: 300px;
+}
+
+.bannerinterior {
+	width: 1000px;
+	margin: auto;
+}
+
+.banneresquerda {
+	float: left;
+}
+
+.frase1 {
+	color: white;
+	font-size: 48px;
+	font-weight: bold;
+	padding-top: 60px;
+}
+
+.frase2 {
+	color: white;
+	font-size: 20px;
+}
+
+.botao {
+	background-color: #ffc001;
+	height: 56px;
+	width: 282px;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 20px;
+	line-height: 56px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.bannerdireita {
+	float: right;
+	height: 300px
+}
+
+.bannerdireita img {
+	margin-right: 55px;
+}
+
+.conteudointerno {
+	width: 1000px;
+	margin: auto;
+}
+
+.outrosprodutos {
+	height: 90px;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	line-height: 90px;
+}	
+
+.fotos img {
+	margin-left: 10px; 
+	margin-right: 10px;
+}
+
+.rodape {
+	background-color: #347aba;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+	margin-top: 40px;
+}
